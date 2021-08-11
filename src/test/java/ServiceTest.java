@@ -17,6 +17,6 @@ public class ServiceTest {
         Service service = new Service();
         int[] temperatures = {10, 20, 30, 40, 50};
         int actual = service.calculateMaxTemperature(temperatures);
-        assertEquals(30, actual);
+        assertEquals(50, actual);
     }
 }
